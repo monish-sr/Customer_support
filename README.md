@@ -8,8 +8,6 @@ This project focuses on classifying customer support tickets into categories lik
 This project utilizes the customer support tickets datasets, which includes customer's issues as ticket descriptions and categorized as per the need. This dataset contains 500 rows and 3 columns.
 
 ## Execution Plan
-
-### Methodology
 The methodology outlines the process of preprocessing customer support tickets, extracting features using TF-IDF, and classifying tickets into categories using Naive Bayes and Random Forest models. It includes data cleaning, stopword removal, and lemmatization to normalize text. The models are trained on labeled data and evaluated using confusion matrices and classification metrics, ensuring accurate ticket categorization. This pipeline ensures scalable and efficient machine learning for automating ticket classification in customer support systems.
 
 1. **Data Collection**: The dataset, "customer_support_tickets.csv," contains customer support ticket descriptions along with their respective categories (e.g., Account Issue, Billing Issue, etc.).
